@@ -1,0 +1,83 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0     var randomNumberBetween0and19 = Math.floor(Math.random(1000) * 1000);\
+\
+    function randomWholeNum() \{\
+\
+    // Only change code below this line.\
+\
+    return Math.random();\
+    \}\
+    var randomNumberBetween0and191 = Math.floor(Math.random(1000) * 1000);\
+\
+    function randomWholeNum() \{\
+\
+    // Only change code below this line.\
+\
+    return Math.random();\
+    \}\
+var usrchoice = prompt("make ur own problem or generate one either type gen or make");\
+if (usrchoice == "gen") \{\
+    alert(randomNumberBetween0and19);\
+    var sum1 = (randomNumberBetween0and19);\
+    var sum2 = (randomNumberBetween0and191);\
+    alert(randomNumberBetween0and191)\
+    var usranswer = prompt("what do you think the answer is?");\
+    var answer = sum1*sum2;\
+    if (usranswer == answer) \{\
+    alert("you got it correct");\
+    \} else \{ \
+    alert("you got it wrong");\
+    var yesno = prompt("want to try again? if yes type yes or if no click cancel");\
+    \}\
+    if (yesno == "yes") \{\
+    var usranswer = prompt("what do you think the answer is?");\
+    var answer = randomNumberBetween0and19*randomNumberBetween0and191;\
+    if (usranswer == answer) \{\
+    alert("you got it correct");\
+    \} else \{ \
+    alert("you got it wrong");\
+    if (usranswer == answer) \{\
+    alert("you got it correct");\
+    \} else \{\
+    var yesno = prompt("want to try again? if yes type yes or if no click cancel");\
+    \}\
+    if (yesno == "yes") \{\
+    alert("this is your last try");\
+    var usranswer = prompt("what do you think the answer is?");\
+    var answer = randomNumberBetween0and19*randomNumberBetween0and191;\
+    if (usranswer == answer) \{\
+    alert("you got it correct");\
+    \} else \{ \
+    alert("you got it wrong");\
+    var answeryesno = prompt("want the answer? if yes type yes or if no click cancel");\
+    if (answeryesno == "yes") \{\
+    alert(answer);\
+    \}\
+\}\
+\}\
+\}\
+\}\
+\} else \{\
+    if (usrchoice == "make") \{\
+    var sum5 = prompt("what is sum1?");\
+    var sum6 = prompt("what is sum2?");\
+    var usranswer1 = prompt("what do you think the answer is?");\
+    var offanswer1 = sum5+sum6;\
+    if (offanswer1 == usranswer1) \{\
+    alert("you got it correct");\
+    \} else \{ \
+    alert("you got it wrong");\
+    alert("fyi try agian option will be available soon")\
+    \}\
+    alert("just so you know try agian option under myo (make your own problem) will be available later");\
+    \
+    \} else \{\
+        alert("what you intended to do was not clear");\
+    \}\
+\}}
